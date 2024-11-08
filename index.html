@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Todo List project</title>
+</head>
+<body>
+    <div class="header brightness">
+        <h1>Todo List</h1>
+    </div>
+    
+    <div class="add-new">
+        <div class="addnewheader">
+            <h2>Add New Task</h2>
+            <i class="bi bi-x"></i>
+        </div>
+        <div class="input-div">
+            <input type="text" name="title" id="title" placeholder="title" required>
+            <textarea name="body" id="body" placeholder="Type your text ..." required></textarea>
+            <button class="add-but">Add</button>
+        </div>
+    </div>
+
+    <div class="commands-container brightness">
+        <p>Add new task</p>
+        <div>
+            <i class="bi bi-plus-square-dotted"></i>
+            <i class="bi bi-trash-fill"></i>
+        </div>
+    </div>
+    <div id="task-container" class="brightness">
+
+    </div>
+
+    <div class="hidelements"></div>
+    <script src="script.js"></script>
+</body>
+</html>
